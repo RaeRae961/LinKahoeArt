@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#546E7A"
+    tools:context="com.raemacias.android.linkahoefineart.MainActivity">
+
+  <ImageView
+      android:src="@drawable/lizzie"
+      android:id="@+id/lizzie"
+      android:layout_width="wrap_content"
+      android:layout_height="240dp"
+      android:layout_alignParentTop="true"
+      android:layout_marginLeft="20dp"
+      android:layout_marginRight="20dp"
+      android:layout_marginTop="55dp"
+      android:paddingTop="18dp"
+      android:paddingBottom="20dp"/>
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Lin Kahoe Fine Art"
+      android:layout_centerInParent="true"
+      android:layout_alignParentTop="true"
+      android:paddingTop="20dp"
+      android:textSize="25sp"
+      android:textColor="#ECEFF1"
+      />
+  <TextView
+      android:id="@+id/oil"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Specializing in oil paintings of your favorite pet photos."
+      android:layout_centerInParent="true"
+      android:layout_below="@id/lizzie"
+      android:paddingLeft="20dp"
+      android:paddingRight="20dp"
+      android:paddingBottom="10dp"
+      android:textSize="18sp"
+      android:textStyle="italic"
+      android:textColor="#ECEFF1"
+      />
+
+  <TextView
+      android:id="@+id/mail"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="  linkahoe@gmail.com"
+      android:layout_centerInParent="true"
+      android:layout_below="@id/oil"
+      android:paddingLeft="20dp"
+      android:paddingRight="20dp"
+      android:paddingTop="20dp"
+      android:textSize="18sp"
+      android:textColor="#ECEFF1"
+      android:drawableLeft="@drawable/ic_mail_black_24dp"
+      />
+
+  <TextView
+      android:id="@+id/address"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="  Lin Kahoe Fine Art\n  123 Main Street\n  Arvada, CO  80007"
+      android:layout_centerInParent="true"
+      android:layout_below="@id/mail"
+      android:paddingLeft="20dp"
+      android:paddingRight="20dp"
+      android:paddingBottom="10dp"
+      android:paddingTop="10dp"
+      android:textSize="18sp"
+      android:textColor="#ECEFF1"
+      android:drawableLeft="@drawable/ic_location_on_black_24dp"
+      />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="  LinKahoeFineArt.com"
+      android:layout_below="@id/address"
+      android:paddingLeft="20dp"
+      android:paddingRight="20dp"
+      android:paddingBottom="20dp"
+      android:paddingTop="5dp"
+
+      android:textSize="18sp"
+      android:textColor="#ECEFF1"
+      android:drawableLeft="@drawable/ic_pets_black_24dp"
+      />
+
+</RelativeLayout>
+
+
